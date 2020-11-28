@@ -37,7 +37,7 @@ try:
         for a in dlink[3].findAll('a'):
             print(a.get('href'))
 except:
-    print('err')
+    print('error')
 
 finally:
     browser.close()
